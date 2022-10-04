@@ -1,1 +1,1 @@
-<h1 class="text-3xl text-red-500 font-bold underline">Hello world!</h1>
+<h1 class="flex text-3xl font-bold underline">Hello world!</h1>
