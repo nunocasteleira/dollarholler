@@ -24,6 +24,10 @@ module.exports = {
 				gallery: '#efeaf2',
 				caribbeanGreen: '#00ca9e',
 				fog: '#decaec'
+			},
+			zIndex: {
+				navBar: 90,
+				navBarToggle: 91
 			}
 		}
 	},
