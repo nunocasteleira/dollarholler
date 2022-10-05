@@ -20,5 +20,5 @@
 	},
 	"peacock.color": "#ff3d00",
 	"cSpell.words": ["Kalam"],
-	"conventionalCommits.scopes": ["config", "pages", "layout"]
+	"conventionalCommits.scopes": ["config", "pages", "layout", "types"]
 }
