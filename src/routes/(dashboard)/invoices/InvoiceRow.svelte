@@ -8,7 +8,7 @@
 </script>
 
 <div
-	class="invoice-table invoice-row items-center rounded-lg bg-white py-3 shadow-tableRow lg:py-6"
+	class="invoice-table invoice-row shadow-tableRow items-center rounded-lg bg-white py-3 lg:py-6"
 >
 	<div class="status"><Tag label={invoiceStatus} className="ml-auto lg:ml-0" /></div>
 	<div class="due-date text-sm lg:text-lg">{dueDate}</div>
@@ -20,10 +20,10 @@
 		{centsToDollars(sumLineItems(lineItems))}
 	</div>
 	<div class="view-button lg:center hidden text-sm lg:text-lg">
-		<a href="#" class="text-pastelPurple hover:text-daisyBush"><View /></a>
+		<a href="#" class="text-pastel-purple hover:text-daisy-bush"><View /></a>
 	</div>
 	<div class="more-button lg:center hidden text-sm lg:block lg:text-lg">
-		<button class="text-pastelPurple hover:text-daisyBush"><ThreeDots /></button>
+		<button class="text-pastel-purple hover:text-daisy-bush"><ThreeDots /></button>
 	</div>
 </div>
 

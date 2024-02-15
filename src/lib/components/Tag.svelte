@@ -15,15 +15,15 @@
 
 <style lang="postcss">
 	.inverted {
-		@apply border-pastelPurple text-pastelPurple;
+		@apply border-pastel-purple text-pastel-purple;
 	}
 	.success {
-		@apply border-robinEggBlue bg-robinEggBlue text-blueGem;
+		@apply border-robin-egg-blue bg-robin-egg-blue text-blue-gem;
 	}
 	.alert {
-		@apply border-scarlet bg-scarlet text-goldenFizz;
+		@apply border-scarlet bg-scarlet text-golden-fizz;
 	}
 	.archive {
-		@apply border-pastelPurple bg-pastelPurple text-white;
+		@apply border-pastel-purple bg-pastel-purple text-white;
 	}
 </style>

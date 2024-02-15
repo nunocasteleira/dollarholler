@@ -24,7 +24,7 @@
 	<!-- new invoice button -->
 	<div>
 		<button
-			class="relative translate-y-0 whitespace-nowrap rounded-lg bg-lavenderIndigo px-5 py-2 font-sansSerif text-base font-black text-white shadow-colored transition-all hover:-translate-y-2 hover:shadow-coloredHover lg:px-10 lg:py-3 lg:text-xl"
+			class="hover:shadow-coloredHover relative translate-y-0 whitespace-nowrap rounded-lg bg-lavender-indigo px-5 py-2 font-sans-serif text-base font-black text-white shadow-colored transition-all hover:-translate-y-2 lg:px-10 lg:py-3 lg:text-xl"
 			>+ Invoice</button
 		>
 	</div>
@@ -33,7 +33,7 @@
 <!-- list of invoices -->
 <div>
 	<!-- header -->
-	<div class="table-header invoice-table hidden text-daisyBush lg:grid">
+	<div class="table-header invoice-table hidden text-daisy-bush lg:grid">
 		<h3>Status</h3>
 		<h3>Due date</h3>
 		<h3>ID</h3>

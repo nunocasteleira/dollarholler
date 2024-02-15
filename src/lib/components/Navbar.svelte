@@ -18,9 +18,9 @@
 
 <!-- mobile nav control -->
 <button
-	class="fixed right-6 top-6 z-navBarToggle h-6 w-6 md:hidden"
-	class:text-goldenFizz={isNavShowing}
-	class:text-daisyBush={!isNavShowing}
+	class="nav-bar-toggle fixed right-6 top-6 h-6 w-6 md:hidden"
+	class:text-golden-fizz={isNavShowing}
+	class:text-daisy-bush={!isNavShowing}
 	on:click={() => (isNavShowing = !isNavShowing)}
 >
 	{#if isNavShowing}
@@ -31,7 +31,7 @@
 </button>
 
 <header
-	class="fixed z-navBar h-screen w-full -translate-x-full bg-daisyBush text-center transition-transform md:relative md:col-span-3 md:h-full md:translate-x-0"
+	class="fixed z-nav-bar h-screen w-full -translate-x-full bg-daisy-bush text-center transition-transform md:relative md:col-span-3 md:h-full md:translate-x-0"
 	class:translate-x-0={isNavShowing}
 >
 	<div class="mt-10 mb-10 md:mb-24">
@@ -56,11 +56,11 @@
 	}
 
 	nav ul li a {
-		@apply font-bold text-white hover:text-goldenFizz;
+		@apply font-bold text-white hover:text-golden-fizz;
 	}
 
 	nav ul li a.active {
-		@apply px-8 text-robinEggBlue transition-[padding];
+		@apply px-8 text-robin-egg-blue transition-[padding];
 		background: url('/images/active-nav--left.svg') left top no-repeat,
 			url('/images/active-nav--right.svg') right top no-repeat;
 	}
